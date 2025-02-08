@@ -1,0 +1,21 @@
+"$schema" = 'https://starship.rs/config-schema.json'
+
+# Inserts a blank line between shell prompts
+add_newline = true
+
+[docker_context]
+disabled = true
+
+[nix_shell]
+disabled = false
+impure_msg = '$name'
+pure_msg = 'pure'
+format = 'via ❄️[ $state ](bold blue)'
+
+[nodejs]
+disabled = true
+
+[python]
+disabled = false
+detect_extensions = []
+detect_files = []
